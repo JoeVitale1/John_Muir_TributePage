@@ -1,7 +1,6 @@
 #container {
-	margin: 20px 60px 0 60px;
+	margin: 20px 60px 50px 60px;
 	background-color: lightgray;
-	font-family: fantasy;
 	border-radius: 5px
 }
 
@@ -12,11 +11,12 @@ h1 {
 	font-family: fantasy;
 }
 
-h3 {
+h2 {
 	text-align: center;
 	font-size: 35px;
 	font-style: italic;
 	margin-top: -40px;
+	font-family: fantasy;
 }
 
 #img-container {
@@ -28,4 +28,19 @@ h3 {
 
 img {
 	max-width: 100%;
+}
+
+#img-caption {
+	text-align: center;
+	font-style: arial;
+}
+
+#timeline-container {
+	margin: 0 250px;
+	font-family: arial;
+}
+
+h3 {
+	font-size: 24px;
+	margin-bottom: -10px;
 }
